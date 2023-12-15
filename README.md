@@ -1,1 +1,1 @@
-# Predict-Mechanical_Properties-Low-Alloy-Steel-Using-Structural-Components
+# Predict-Mechanical-Properties-Low-Alloy-Steel-Using-Structural-Components
