@@ -34,7 +34,7 @@ We conducted an Exploratory Data Analysis (EDA) to gain insights into our datase
 
 - We analyze distribution of target variables.
 
-We detect and eliminate an oulier in tnsile strength.
+We detect and eliminate an oulier in tensile strength.
 
 
 - We analyze distribution of features.
@@ -42,7 +42,9 @@ We detect and eliminate an oulier in tnsile strength.
 We eliminate following features:
 
 Allow code because isn't a structural component.
+
 Ceq because is a combination of other features.
+
 Nb + Ta because has 97.6% of a single value.
 
 - We created a correlation matrix to analyze the relationships between numerical variables.
