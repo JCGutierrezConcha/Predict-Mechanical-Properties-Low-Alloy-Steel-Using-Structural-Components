@@ -92,7 +92,9 @@ Virtual environment of the project is provided by files `Pipfile` and `Pipfile.l
 
 - To create a virtual environment with libraries and dependencies required for the project, one should first install `pipenv` library:  
    
-```pip install pipenv```
+```
+pip install pipenv
+```
 
 - Clone the project repository from GitHub.
 
@@ -102,13 +104,17 @@ git clone https://github.com/JCGutierrezConcha/Predict-Mechanical-Properties-Low
 
 - Creation of virtual environment for model development and training.
 
-Run the following command:   
+Run the following command to install virtual environment:   
    
-```pipenv install```   # to install virtual environment
+```
+pipenv install
+```  
 
 Now you can run `train.py` file with a command
 
-```pipenv run python train.py```
+```
+pipenv run python train.py
+```
 
 Files `predict.py` and `predict_test.py` may be run in a similar way.
 
