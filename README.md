@@ -91,7 +91,7 @@ The logic for training the best model is exported to a separate script named `tr
 
 Virtual environment of the project is provided by files `Pipfile` and `Pipfile.lock`. These files contain all information about libraries and dependencies for the project.
 
-- To create a virtual environment with libraries and dependencies required for the project, one should first install `pipenv` library:  
+To create a virtual environment with libraries and dependencies required for the project, one should first install `pipenv` library:  
    
 ```
 pip install pipenv
@@ -103,7 +103,7 @@ pip install pipenv
 git clone https://github.com/JCGutierrezConcha/Predict-Mechanical-Properties-Low-Alloy-Steel-Using-Structural-Components.git
 ```
 
-- Installation of virtual environment.
+### Installation of virtual environment.
 
 Run the following command to install virtual environment:   
    
@@ -124,7 +124,7 @@ Files `predict.py` and `predict_test.py` may be run in a similar way.
 To deploy web service run the command:
 
 ```
-pipenv run waitress-serve --listen=localhost:9696 predit:app
+pipenv run waitress-serve --listen=localhost:9696 predict:app
 ```
 
 ### Usage app to predict
