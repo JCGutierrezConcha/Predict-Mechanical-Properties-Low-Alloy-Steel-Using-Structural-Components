@@ -36,7 +36,6 @@ We conducted an Exploratory Data Analysis (EDA) to gain insights into our datase
 
 We detect and eliminate an oulier in tensile strength.
 
-
 - We analyze distribution of features.
 
 We eliminate following features:
@@ -120,6 +119,19 @@ pipenv run python train.py
 
 Files `predict.py` and `predict_test.py` may be run in a similar way.
 
+### Deploy web service
+
+To deploy web service run the command:
+
+```
+pipenv run waitress-serve --listen=localhost:9696 predit:app
+```
+
+### Usage app to predict
+
+Open a new terminal, be sure requests is installed. If is necessary use ```pip install requests```.
+
+Then run  ```python predict_test.py```.
 
 ## Run with Docker
 
@@ -142,7 +154,7 @@ docker run -it --rm -p 9696:9696 {build-tag}
 - -p 9696:9696 maps port 9696 on your host to port 9696 within the container.
 
 
-## Usage app to predict
+### Usage app to predict
 
 Open a new terminal, be sure requests is installed. If is necessary use ```pip install requests```.
 
