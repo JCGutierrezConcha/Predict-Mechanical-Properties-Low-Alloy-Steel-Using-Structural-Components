@@ -117,8 +117,6 @@ Now you can run `train.py` file with a command
 pipenv run python train.py
 ```
 
-Files `predict.py` and `predict_test.py` may be run in a similar way.
-
 ### Deploy web service
 
 To deploy web service run the command:
