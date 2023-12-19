@@ -103,7 +103,7 @@ pip install pipenv
 git clone https://github.com/JCGutierrezConcha/Predict-Mechanical-Properties-Low-Alloy-Steel-Using-Structural-Components.git
 ```
 
-### Installation of virtual environment.
+### Installation of virtual environment
 
 Run the following command to install virtual environment:   
    
